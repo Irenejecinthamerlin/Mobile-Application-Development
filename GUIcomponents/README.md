@@ -133,6 +133,7 @@ private int generateRandomColor() {
 ```
 ## OUTPUT
 ![image](https://github.com/Irenejecinthamerlin/Mobile-Application-Development/assets/128350225/a42a38c2-4997-4f0f-9d09-fbe44d3aea1d)
+
 ![image](https://github.com/Irenejecinthamerlin/Mobile-Application-Development/assets/128350225/e9f81c04-e07a-4b9d-a469-6fb47a04ee29)
 ## RESULT
 Thus a Simple Android Application that uses GUI Components with Fonts and Colors using Android Studio is developed and executed successfully.
