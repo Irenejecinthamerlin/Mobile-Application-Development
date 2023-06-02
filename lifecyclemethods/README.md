@@ -29,12 +29,87 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Hello World”.
-Developed by:
-Registeration Number :
+Developed by:Irene jecintha merlin R
+Registeration Number :212221040058
 */
 ```
+## activity_main.xml :
+```
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-## OUTPUT
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+```
+## MainActivity.java :
+```
+package com.example.exp1;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Toast.makeText(this, "onCreate Called", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onRestart(){
+        Toast.makeText(this, "onRestart Called", Toast.LENGTH_SHORT).show();
+        super.onRestart();
+    }
+    @Override
+    protected void onStart(){
+        Toast.makeText(this, "onStart Called", Toast.LENGTH_SHORT).show();
+
+        super.onStart();
+    }
+    @Override
+    protected void onResume(){
+        Toast.makeText(this, "onResume Called", Toast.LENGTH_SHORT).show();
+
+        super.onResume();
+    }
+    @Override
+    protected void onPause(){
+        Toast.makeText(this, "onPause Called", Toast.LENGTH_SHORT).show();
+
+        super.onPause();
+    }
+    @Override
+    protected void onStop(){
+        Toast.makeText(this, "onStop Called", Toast.LENGTH_SHORT).show();
+
+        super.onStop();
+    }
+    @Override
+    protected void onDestroy(){
+        Toast.makeText(this, "onDestroy Called", Toast.LENGTH_SHORT).show();
+
+        super.onDestroy();
+    }
+}
+```
+# OUTPUT:
+
+
 
 
 
