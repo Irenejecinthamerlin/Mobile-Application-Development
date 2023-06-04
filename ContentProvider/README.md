@@ -121,6 +121,7 @@ public void btnGetContactPressed(View view) {
 
 ![image](https://github.com/Irenejecinthamerlin/Mobile-Application-Development/assets/128350225/6218e57a-ab57-45db-8634-52de03cbaeb7)
 
+![7](https://github.com/Irenejecinthamerlin/Mobile-Application-Development/assets/128350225/1c699604-daad-4f67-8cea-dd1df4953f8e)
 
 ## RESULT
 Thus a Simple Android Application create your own content providers to get contacts details using Android Studio is developed and executed successfully.
