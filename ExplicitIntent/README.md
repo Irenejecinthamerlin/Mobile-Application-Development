@@ -167,6 +167,21 @@ private long calculateFactorial(int number) {
 
 ![image](https://github.com/Irenejecinthamerlin/Mobile-Application-Development/assets/128350225/30c68bbf-bb6a-4e21-8362-f5bcc3f7d26f)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## RESULT
 Thus a Simple Android Application create a Explicit Intents using Android Studio is developed and executed successfully.
 
