@@ -1,15 +1,15 @@
 # Ex.No:3 Develop program to create a text field and a button “Navigate”. When you enter “www.google.com” and press navigate button it should open google page using Implicit Intents.
 
 
-# AIM:
+## AIM:
 
 To create a navigate button using Implicit Intent to display the google page using Android Studio.
 
-# EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
 
 Latest Version Android Studio
 
-# ALGORITHM:
+## ALGORITHM:
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as HelloWorld and click Next.
@@ -116,13 +116,13 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 }
 ```
-# OUTPUT
+## OUTPUT
 ![image](https://github.com/Irenejecinthamerlin/Mobile-Application-Development/assets/128350225/5e4b18d5-3c03-48cc-942b-2b69d016add3)
 
 ![image](https://github.com/Irenejecinthamerlin/Mobile-Application-Development/assets/128350225/1a454873-e238-4b5f-90de-4ca7952ad79e)
 
 ![image](https://github.com/Irenejecinthamerlin/Mobile-Application-Development/assets/128350225/2ecdf43e-0760-489e-b4f4-cda2fc14e6d4)
-# RESULT
+## RESULT
 Thus a Simple Android Application create a navigate button using Implicit Intent to display the google page using Android Studio is developed and executed successfully.
 
 
